@@ -3,7 +3,7 @@ pkgdown: 1.6.1
 pkgdown_sha: ~
 articles:
   Effectively_using_the_DelayedArray_framework_for_users: Effectively_using_the_DelayedArray_framework_for_users.html
-last_built: 2021-05-25T08:12Z
+last_built: 2021-05-25T22:24Z
 urls:
   reference: https://PeteHaitch.github.io/BioC2021_DelayedArray_workshop/reference
   article: https://PeteHaitch.github.io/BioC2021_DelayedArray_workshop/articles
