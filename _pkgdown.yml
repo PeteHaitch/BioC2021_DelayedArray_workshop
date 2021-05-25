@@ -1,4 +1,4 @@
-url: https://seandavi.github.io/BuildABiocWorkshop
+url: https://PeteHaitch.github.io/BioC2021_DelayedArray_workshop
 
 template:
   params:
@@ -6,13 +6,13 @@ template:
     #ganalytics: UA-99999999-9
 
 home:
-  title: "BuildABiocWorkshop"
+  title: "Effectively using the DelayedArray framework as a user to support the analysis of large datasets"
   type: inverse
 
 
 navbar:
   right:
    - icon: fa-github
-     href: https://github.com/seandavi/BuildABiocWorkshop
-     
+     href: https://github.com/PeteHaitch/BioC2021_DelayedArray_workshop
+
 

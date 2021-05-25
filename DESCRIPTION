@@ -1,28 +1,36 @@
-Package: BuildABiocWorkshop
-Title: Bioconductor Workshop Template and Github Actions
+Package: DelayedArrayWorkshop
+Title: Effectively Using the DelayedArray Framework to Support the Analysis of Large Datasets
 Version: 0.9.0
-Authors@R: 
-    person(given = "Sean",
-           family = "Davis",
-           role = c("aut", "cre"),
-           email = "seandavi@gmail.com",
-           comment = c(ORCID = "your-orc-id-here"))
-Description: This package serves as a template for using github actions to 
-    prepare a Bioconductor Workshop package for use. In particular,
-    a pkgdown website and docker image are generated based on workflow 
-    settings. 
+Authors@R: c(
+  person(
+  given = "Peter",
+  family = "Hickey",
+  role = c("aut", "cre"),
+  email = "peter.hickey@gmail.com",
+  comment = c(ORCID = "0000-0002-8153-6258")))
+Description: This workshop will teach the fundamental concepts underlying the 
+  DelayedArray framework and related infrastructure. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
-Depends: 
-    Biobase
-Suggests: 
-    knitr,
-    rmarkdown,
-    pkgdown
-URL: https://seandavi.github.io/BuildABiocWorkshop/
-BugReports: https://github.com/seandavi/BuildABiocWorkshop/issues/new/choose
+Imports:
+  DelayedArray,
+  HDF5Array,
+  ExperimentHub,
+  DelayedMatrixStats,
+  BiocPkgTools,
+  rmarkdown,
+  BiocStyle,
+  rhdf5,
+  SingleCellExperiment,
+  scuttle,
+  knitr,
+  DT
+Suggests:
+    pkgdown,
+    TENxBrainData
+URL: https://petehaitch.github.io/BioC2021_DelayedArray_workshop/
 VignetteBuilder: knitr
-DockerImage: seandavi/buildabiocworkshop:latest
+DockerImage: petehaitch/bioc2021_delayedarray_workshop:latest
